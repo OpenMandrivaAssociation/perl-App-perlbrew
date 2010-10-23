@@ -1,5 +1,5 @@
 %define upstream_name    App-perlbrew
-%define upstream_version 0.10
+%define upstream_version 0.12
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
