@@ -1,9 +1,9 @@
 %define upstream_name    App-perlbrew
-%define upstream_version 0.18
+%define upstream_version 0.19
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 1
 
 Summary:    Manage perl installations in your $HOME
 License:    GPL+ or Artistic
