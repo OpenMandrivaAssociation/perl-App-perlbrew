@@ -14,6 +14,7 @@ Source0:    http://www.cpan.org/modules/by-module/App/%{upstream_name}-%{upstrea
 BuildRequires: perl(ExtUtils::MakeMaker)
 BuildRequires: perl(File::Path::Tiny)
 BuildRequires: perl(HTTP::Lite)
+BuildRequires: perl(Test::Output)
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
 
