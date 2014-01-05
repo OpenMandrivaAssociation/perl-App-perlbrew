@@ -1,2 +1,4 @@
+removed_sources:
+  App-perlbrew-0.21.tar.gz: 0c9f180f60016efee5c41ca60405235a4d944fa4
 sources:
-  "App-perlbrew-0.21.tar.gz": 0c9f180f60016efee5c41ca60405235a4d944fa4
+  App-perlbrew-0.66.tar.gz: b512ec9f6c3b619dabbe4074cb15818edec52a8d

@@ -1,15 +1,15 @@
 %define upstream_name    App-perlbrew
-%define upstream_version 0.21
+%define upstream_version 0.66
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Release:	1
 
 Summary:	Manage perl installations in your $HOME
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/App/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/App/App-perlbrew-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(ExtUtils::MakeMaker)
@@ -96,4 +96,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 * Sat Oct 16 2010 Guillaume Rousse <guillomovitch@mandriva.org> 0.100.0-1mdv2011.0
 + Revision: 586105
 - import perl-App-perlbrew
+
 
